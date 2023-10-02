@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!--
+        Viewport:visible area of a screen
+        initial-scale=1.0 : webpage is not zoomed in or zoomed out-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Text to Speech Converter</title>
+
+    <!-- add poppins font -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap"
+    />
+    <!-- add icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <h1>Text to Speech <span>Converter</span></h1>
+      <textarea placeholder="Write anything here..."></textarea>
+      <div class="voices">
+        <select></select>
+        <button><i class="fa-regular fa-circle-play"></i> Listen</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
